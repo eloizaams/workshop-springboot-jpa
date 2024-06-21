@@ -27,10 +27,10 @@ public class Order implements Serializable {
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyy-MM-dd'T'HH:mm:ss'Z'", timezone = "GMT")
 	private Instant moment;
 
-	private Integer orderStatus;
+	private Integer orderStatus; //Declarado como Integer e nao como OrderStatus para garantir a integração com o BD
 	
-	// associação muitos para um
-	@ManyToOne
+	
+	@ManyToOne // associação muitos para um
 	@JoinColumn(name = "client_id")
 	private User client;
 

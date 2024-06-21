@@ -30,9 +30,9 @@ public class User implements Serializable{
 	private String password;
 	
 	
-	//associaçao um para muitos
-	@JsonIgnore
-	@OneToMany(mappedBy = "client")
+	
+	@JsonIgnore 
+	@OneToMany(mappedBy = "client") //associaçao um para muitos
 	private List<Order> orders = new ArrayList<>();
 	
 	public User() {
