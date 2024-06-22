@@ -1,0 +1,71 @@
+[33mcommit 44f7c69d22b5b3302e8a3cb7d1edcf80c2f5cf55[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Eloiza <eloizaams@yahoo.com.br>
+Date:   Fri Jun 21 18:31:38 2024 -0300
+
+    [200~Many-to-many association with JoinTable ~
+
+[33mcommit 95998d344f11c5b8470606d73565503f10d782b5[m
+Author: Eloiza <eloizaams@yahoo.com.br>
+Date:   Fri Jun 21 18:11:14 2024 -0300
+
+    Product
+
+[33mcommit f37ccae1d2d4a4ab0e63fd9613d3b0f11b31239c[m
+Author: Eloiza <eloizaams@yahoo.com.br>
+Date:   Fri Jun 21 17:50:24 2024 -0300
+
+    Category
+
+[33mcommit 3aa82d6cfd7b89c1c86fcf9ecbe44b6240775f8b[m
+Author: Eloiza <eloizaams@yahoo.com.br>
+Date:   Fri Jun 21 17:12:30 2024 -0300
+
+    OrderStatus enum
+
+[33mcommit 61ae61a51231951549199262418fabb4fde8def0[m
+Author: Eloiza <eloizaams@yahoo.com.br>
+Date:   Fri Jun 21 16:53:10 2024 -0300
+
+    Order, Instant, ISO 8601
+
+[33mcommit ef6087379319c8464eda027c23b4843e61637370[m
+Author: Eloiza <eloizaams@yahoo.com.br>
+Date:   Thu Jun 20 20:29:20 2024 -0300
+
+    Service layer, component registration
+
+[33mcommit 8ff589cd444db49e6217a34d109375eb384d25ea[m
+Author: Eloiza <eloizaams@yahoo.com.br>
+Date:   Thu Jun 20 18:45:14 2024 -0300
+
+    JPA repository, dependency injection, database seeding
+
+[33mcommit c33c0a0fd14f70fa4b126c34fc242cd26377cf5d[m
+Author: Eloiza <eloizaams@yahoo.com.br>
+Date:   Thu Jun 20 18:24:20 2024 -0300
+
+    H2 database, test profile, JPA
+
+[33mcommit 3fdc8992e1bbe07c7c80cb33c3681c758a3b886f[m
+Author: Eloiza <eloizaams@yahoo.com.br>
+Date:   Thu Jun 20 17:47:34 2024 -0300
+
+    User entity and resource
+
+[33mcommit 74b2d77d215a2d14d2c6fee37a26998767b63994[m
+Author: Eloiza <eloizaams@yahoo.com.br>
+Date:   Thu Jun 20 16:33:48 2024 -0300
+
+    Project created
+
+[33mcommit 7a0c00897111538245a3828a74ee2c8210acde96[m
+Author: Eloiza A M Souza <eloizaams@yahoo.com.br>
+Date:   Thu Jun 20 16:32:12 2024 -0300
+
+    Update README.md
+
+[33mcommit 678e60eb0f1779b4291bb687f551beab764be5aa[m
+Author: Eloiza A M Souza <eloizaams@yahoo.com.br>
+Date:   Thu Jun 20 16:30:02 2024 -0300
+
+    Initial commit
