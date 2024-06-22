@@ -33,7 +33,7 @@ public class UserResource {
 	}
 	
 	@GetMapping(value = "/{id}") //A requisição vai aceitar o id dentro da URL
-	public ResponseEntity<User> findById(@PathVariable Long id){ //@PathVariable usado para o Spring aceitar o parametro passado pela URL
+	public ResponseEntity<User> findById(@PathVariable Long id){ //@PathVariable usado para o Spring aceitar o parâmetro passado pela URL
 		User obj = service.findById(id);
 		return ResponseEntity.ok().body(obj);
 	}

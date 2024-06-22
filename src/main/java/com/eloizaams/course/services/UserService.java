@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.eloizaams.course.entities.User;
 import com.eloizaams.course.repositories.UserRepository;
+import com.eloizaams.course.services.exceptions.ResourceNotFoundException;
 
 
 @Service//Registra a classe como componente de serviço do Spring
@@ -22,7 +23,7 @@ public class UserService {
 	
 	public User findById(Long id) {
 		Optional<User> obj = repository.findById(id);
-		return obj.get();
+		return obj.orElseThrow(() -> new ResourceNotFoundException(id));
 	}
 	
 	public User insert (User obj) {
